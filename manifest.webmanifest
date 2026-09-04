@@ -9,7 +9,7 @@
   "theme_color": "#00347f",
   "icons": [
     {
-      "src": "assets/insight-lifetech-logo.png",
+      "src": "insight-lifetech-logo.png",
       "sizes": "any",
       "type": "image/png",
       "purpose": "any"

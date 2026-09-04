@@ -556,7 +556,7 @@
     sections.push(reportSection(C.sections[7][state.lang], items));
 
     const title = t("printTitle");
-    $("#printReport").innerHTML = `<header class="print-header"><div><h1>${esc(title)}</h1><p>${esc([v.centerName, v.physician, v.visitDate].filter(Boolean).join(" · "))}</p><p>${esc(t("privacy"))}</p></div><img src="assets/insight-lifetech-logo.png" alt="Insight Lifetech"></header>${sections.join("")}<footer class="print-footer">Insight Lifetech · ${esc(t("generated"))}: ${esc(new Date().toLocaleString(state.lang === "zh" ? "zh-CN" : "en-GB"))}</footer>`;
+    $("#printReport").innerHTML = `<header class="print-header"><div><h1>${esc(title)}</h1><p>${esc([v.centerName, v.physician, v.visitDate].filter(Boolean).join(" · "))}</p><p>${esc(t("privacy"))}</p></div><img src="insight-lifetech-logo.png" alt="Insight Lifetech"></header>${sections.join("")}<footer class="print-footer">Insight Lifetech · ${esc(t("generated"))}: ${esc(new Date().toLocaleString(state.lang === "zh" ? "zh-CN" : "en-GB"))}</footer>`;
   }
 
   $("#pdfButton").addEventListener("click", () => {

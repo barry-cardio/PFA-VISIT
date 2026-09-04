@@ -1,4 +1,4 @@
-const CACHE_NAME = "pfa-visit-v4";
+const CACHE_NAME = "pfa-visit-v5";
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -6,7 +6,7 @@ const APP_ASSETS = [
   "./translations.js",
   "./app.js",
   "./manifest.webmanifest",
-  "./assets/insight-lifetech-logo.png"
+  "./insight-lifetech-logo.png"
 ];
 
 self.addEventListener("install", (event) => {
